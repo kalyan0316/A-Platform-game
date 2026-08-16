@@ -205,8 +205,8 @@ DOMDisplay.prototype.scrollPlayerIntoView = function(state) {
 };
 
 
-  let simpleLevel = new Level(simpleLevelPlan);
-  let display = new DOMDisplay(document.body, simpleLevel);
+  // let simpleLevel = new Level(simpleLevelPlan);
+  // let display = new DOMDisplay(document.body, simpleLevel);
   //display.syncState(State.start(simpleLevel));
 
 
