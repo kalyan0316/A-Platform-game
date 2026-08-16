@@ -207,7 +207,7 @@ DOMDisplay.prototype.scrollPlayerIntoView = function(state) {
 
   let simpleLevel = new Level(simpleLevelPlan);
   let display = new DOMDisplay(document.body, simpleLevel);
-  display.syncState(State.start(simpleLevel));
+  //display.syncState(State.start(simpleLevel));
 
 
 // MOTION and COLLISION
@@ -452,7 +452,7 @@ async function runGame(plans, Display) {
   
 }
 
- runGame(GAME_LEVELS, DOMDisplay);
+ //runGame(GAME_LEVELS, DOMDisplay);
 
 
 
